@@ -1,0 +1,18 @@
+---==## Thu Feb 12 15:23:41 EST 2015 #==---
+Version: 1.0
+Info: Log file is opened for logging analysis of dg.
+Input: /home/anilee/area/zsrc/t-drug/t-mdm2/zdrg1/md_sim/sim.dcd is loaded.
+Input: 10000 frames have been loaded.
+Selection: (helix or sheet) and name CA
+Selection: 54 atoms are selected
+Selection: P_VAL28_CA P_ARG29_CA P_PRO30_CA P_PRO32_CA P_LEU33_CA P_LEU34_CA P_LEU35_CA P_LYS36_CA P_LEU37_CA P_LEU38_CA P_LYS39_CA P_SER40_CA P_VAL41_CA P_TYR48_CA P_MET50_CA P_LYS51_CA P_GLU52_CA P_VAL53_CA P_LEU54_CA P_PHE55_CA P_TYR56_CA P_LEU57_CA P_GLY58_CA P_GLN59_CA P_TYR60_CA P_ILE61_CA P_MET62_CA P_THR63_CA P_LYS64_CA P_TYR67_CA P_ILE74_CA P_VAL75_CA P_TYR76_CA P_LEU81_CA P_LEU82_CA P_GLY83_CA P_ASP84_CA P_LEU85_CA P_PHE86_CA P_SER90_CA P_PHE91_CA P_SER92_CA P_HSD96_CA P_ARG97_CA P_LYS98_CA P_ILE99_CA P_TYR100_CA P_THR101_CA P_MET102_CA P_ILE103_CA P_TYR104_CA P_ARG105_CA P_LEU107_CA P_VAL108_CA
+Trajectory: Geometric center of the selection has been moved to the origin.
+Trajectory: Solvent and probe molecules out of the original simulation box have been wrapped.
+Trajectory: Alignment is complete.
+Output: System heavy atoms are written into file dg_heavyatoms.pdb.
+Grid: Minimum and maximum coordinates: {-23.070091247558594 -24.691314697265625 -21.665056228637695} {26.273908615112305 30.213685989379883 19.82094383239746}
+Grid: Grid file for IPRO is written as dg_IPRO.dx.
+Grid: Grid file for IPAM is written as dg_IPAM.dx.
+Grid: Grid file for ACAM is written as dg_ACAM.dx.
+Grid: Grid file for ACET is written as dg_ACET.dx.
+Python: Running Python file.

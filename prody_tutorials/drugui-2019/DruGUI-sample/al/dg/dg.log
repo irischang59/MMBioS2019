@@ -1,0 +1,120 @@
+dg is initialized.
+dg working directory is set to "dg".
+Druggability Analysis dg is initialized.
+Parameter: temperature 300.00 K
+Parameter: delta_g -1.000 kcal/mol
+Parameter: n_probes 7
+Parameter: min_n_probes 6
+Parameter: merge_radius 5.5 A
+Parameter: low_affinity 10.00 uM
+Parameter: n_solutions 3
+Parameter: max_charge 2.0 e
+Parameter: n_charged 3
+Parameter: n_frames 1
+Parsing OpenDX file dg_IPRO.dx.
+dg_IPRO was parsed in 0.13s
+Parsing OpenDX file dg_IPAM.dx.
+dg_IPAM was parsed in 0.13s
+Parsing OpenDX file dg_ACAM.dx.
+dg_ACAM was parsed in 0.13s
+Parsing OpenDX file dg_ACET.dx.
+dg_ACET was parsed in 0.13s
+Searching probe binding hotspots with deltaG less than -1.00 kcal/mol (~5 folds enrichment).
+45 all-probes binding spots were identified in 0.22s.
+Minimum binding free energy is -2.29 kcal/mol.
+Hotspot   1 -2.29 kcal/mol 100.0% IPRO 
+Hotspot   2 -2.26 kcal/mol  94.8% IPRO   5.2% ACAM 
+Hotspot   3 -2.13 kcal/mol  84.9% IPRO   9.5% ACET   5.6% ACAM 
+Hotspot   4 -1.96 kcal/mol  99.2% IPRO   0.8% ACAM 
+Hotspot   5 -1.91 kcal/mol  98.8% IPRO   1.2% ACAM 
+Hotspot   6 -1.91 kcal/mol  94.5% IPRO   5.5% ACAM 
+Hotspot   7 -1.88 kcal/mol  96.5% IPRO   2.9% ACAM   0.5% IPAM 
+Hotspot   8 -1.87 kcal/mol  96.3% IPRO   3.7% ACAM 
+Hotspot   9 -1.86 kcal/mol  53.9% IPRO  41.0% IPAM   5.1% ACAM 
+Hotspot  10 -1.85 kcal/mol 100.0% IPRO 
+Hotspot  11 -1.81 kcal/mol  89.1% IPRO   7.5% ACAM   3.4% IPAM 
+Hotspot  12 -1.77 kcal/mol  97.6% IPRO   1.7% IPAM   0.6% ACAM 
+Hotspot  13 -1.75 kcal/mol  94.2% IPRO   5.7% IPAM   0.1% ACAM 
+Hotspot  14 -1.73 kcal/mol  84.1% ACET  10.6% IPRO   5.0% ACAM   0.3% IPAM 
+Hotspot  15 -1.73 kcal/mol  94.1% IPRO   4.6% ACAM   1.4% IPAM 
+Hotspot  16 -1.71 kcal/mol  93.8% IPRO   4.9% ACAM   1.3% IPAM 
+Hotspot  17 -1.66 kcal/mol  99.5% IPRO   0.5% IPAM 
+Hotspot  18 -1.56 kcal/mol  91.7% IPRO   6.9% ACET   1.4% ACAM 
+Hotspot  19 -1.47 kcal/mol  73.2% ACET  24.5% IPRO   2.1% ACAM   0.2% IPAM 
+Hotspot  20 -1.47 kcal/mol  89.8% IPRO   8.0% ACET   2.3% ACAM 
+Hotspot  21 -1.41 kcal/mol  93.0% IPRO   7.0% ACAM 
+Hotspot  22 -1.35 kcal/mol 100.0% IPRO 
+Hotspot  23 -1.32 kcal/mol  86.3% IPRO  11.4% ACAM   2.3% ACET 
+Hotspot  24 -1.31 kcal/mol  90.2% IPRO   6.7% ACAM   3.0% ACET 
+Hotspot  25 -1.29 kcal/mol  98.1% ACET   1.4% ACAM   0.5% IPRO 
+Hotspot  26 -1.29 kcal/mol  99.8% IPRO   0.2% ACAM 
+Hotspot  27 -1.29 kcal/mol  49.5% ACAM  31.5% IPRO  19.0% ACET 
+Hotspot  28 -1.20 kcal/mol  80.2% ACET  15.6% IPAM   4.2% IPRO 
+Hotspot  29 -1.18 kcal/mol  88.0% IPRO  10.6% ACAM   0.9% ACET   0.6% IPAM 
+Hotspot  30 -1.18 kcal/mol  81.2% IPRO  18.2% ACET   0.6% ACAM 
+Hotspot  31 -1.17 kcal/mol  50.7% ACET  46.6% IPRO   2.3% ACAM   0.3% IPAM 
+Hotspot  32 -1.13 kcal/mol  95.0% IPRO   5.0% ACAM 
+Hotspot  33 -1.07 kcal/mol  81.1% ACAM  17.9% IPRO   1.0% ACET 
+Hotspot  34 -1.07 kcal/mol  95.2% IPAM   3.1% IPRO   1.7% ACAM 
+Hotspot  35 -1.05 kcal/mol  99.6% ACET   0.4% IPRO 
+Hotspot  36 -1.05 kcal/mol  81.4% IPAM  12.5% IPRO   6.1% ACAM 
+Hotspot  37 -1.04 kcal/mol  83.3% IPRO  16.3% ACAM   0.4% ACET 
+Hotspot  38 -1.04 kcal/mol  97.8% IPRO   1.8% ACAM   0.4% IPAM 
+Hotspot  39 -1.04 kcal/mol  95.6% IPRO   4.4% ACAM 
+Hotspot  40 -1.04 kcal/mol  68.9% IPRO  25.3% ACAM   5.9% IPAM 
+Hotspot  41 -1.03 kcal/mol  67.7% ACET  17.1% IPRO  13.0% ACAM   2.2% IPAM 
+Hotspot  42 -1.02 kcal/mol  93.6% IPRO   4.5% ACET   1.9% ACAM 
+Hotspot  43 -1.02 kcal/mol  90.5% IPRO   9.5% ACAM 
+Hotspot  44 -1.02 kcal/mol  90.9% ACET   8.3% IPRO   0.8% ACAM 
+Hotspot  45 -1.01 kcal/mol  74.7% IPRO  13.0% ACAM   8.4% ACET   3.8% IPAM 
+IPRO: 33 isopropanol binding hotspots were identified.
+IPRO: lowest binding free energy is -2.29 kcal/mol.
+IPAM: 2 isopropylamine binding hotspots were identified.
+IPAM: lowest binding free energy is -1.07 kcal/mol.
+ACAM: 2 acetamide binding hotspots were identified.
+ACAM: lowest binding free energy is -1.29 kcal/mol.
+ACET: 8 acetate binding hotspots were identified.
+ACET: lowest binding free energy is -1.73 kcal/mol.
+Clustering probe binding hotspots.
+Clustering completed in 0.65ms.
+1 potential sites are identified.
+Calculating achievable affinity ranges.
+Site 1: 9 probe binding hotspots
+Site 1: Lowest probe binding free energy -2.29 kcal/mol
+Site 1: Average probe binding free energy-1.54 kcal/mol
+Site 1: Total of 10 solutions.
+
+Achievable affinities for site 1
+-log10(affinity)
+     #-----#
+8.51 |o    |
+8.37 |o    |
+8.22 |     |
+8.08 |     |
+7.93 |---o |
+7.79 |     |
+7.64 |o    |
+7.50 |o    |
+7.36 |     |
+7.21 |-o   |
+     #-----#
+     0
+Site 1: Lowest drug-like binding free energy -11.68 kcal/mol
+Site 1: Highest drug-like affinity 3.077 nM
+Site 1: Solution 1 binding free energy -11.68 kcal/mol
+Site 1: Solution 1 affinity 3.077 nM
+Site 1: Solution 1 total charge 0.00 e
+Site 1: Solution 1 number of hotspots 7
+Site 1: Solution 1 approximate volume 441.75 A^3
+Site 1: Solution 2 binding free energy -11.42 kcal/mol
+Site 1: Solution 2 affinity 4.711 nM
+Site 1: Solution 2 total charge 0.00 e
+Site 1: Solution 2 number of hotspots 7
+Site 1: Solution 2 approximate volume 461.67 A^3
+Site 1: Solution 3 binding free energy -10.86 kcal/mol
+Site 1: Solution 3 affinity 12.083 nM
+Site 1: Solution 3 total charge 0.00 e
+Site 1: Solution 3 number of hotspots 7
+Site 1: Solution 3 approximate volume 462.31 A^3
+Hotspots are written into file dg/dg_all_hotspots.pdb.
+dg is cPickled into file dg/dg.dso.gz.

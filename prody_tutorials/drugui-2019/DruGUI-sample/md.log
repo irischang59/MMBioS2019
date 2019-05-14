@@ -1,0 +1,25 @@
+---==## Wed Jan 28 13:05:58 EST 2015 #==---
+Version: 1.0
+Info: Logging started for setup of md.
+Solvation: Box padding 6 A.
+Ionization: System has a total charge of 4.999995231628418 electrons.
+Ionization: 5 chloride ions will be added.
+Ionization: System is ionized to become neutral.
+Statistics: System contains 1800 water and 90 probe molecules
+Statistics: System contains 63 isopropanol molecules.
+Statistics: System contains 0 isobutane molecules.
+Statistics: System contains 9 acetamide molecules.
+Statistics: System contains 9 acetate molecules.
+Statistics: System contains 9 isopropylamine molecules.
+Output: Structural data is written into md.psf file.
+Output: Coordinate data is written into md.pdb file.
+Output: Extended system coordinates are written into md.xsc file.
+Statistics: System contains 7880 atoms
+Statistics: Mass of the system is 48029.6263024807 amu
+Statistics: Density of the system is 0.62 amu/A^3
+Cleanup: Intermediate coordinate files have been deleted.
+Simulation: Parameter files are copied into ./parameter folder.
+Simulation: NAMD configuration files for minimization are written into folder md_min.
+Simulation: NAMD configuration files for simulation 1 are written into folder md_sim.
+Simulation: Simulation folders also contains a restart file template.
+Simulation: NAMD commands are written in md.sh.

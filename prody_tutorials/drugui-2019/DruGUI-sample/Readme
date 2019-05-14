@@ -1,0 +1,51 @@
+DruGUI tutorial                 2019-05-15 Ji Young Lee
+====================================================BEGIN
+Prerequisite: NAMD, VMD, DruGUI (ProDy)
+DruGUI-sample: Including all inputs and outputs
+DruGUI-practice: Including only initial structure, mdm2.pdb
+
+In DruGUI-practice, follow steps below.
+
+**********1. making NAMD inputs
+[vmd: File-New Molecule...]
+   load mdm2.pdb
+
+[vmd: Extensions-Modeling-Automatic PSF]
+   write output basename: protein
+   click load input files
+   click quess and split chains using current slections
+   click create chains
+
+[vmd: Extensions-Modeling-DruGUI]
+ *Prepare System*
+   load    protein.psf, protein.pdb
+   select  output folder, output prefix (md)
+   select  num of sim, length of sim
+   click   prepare system
+
+
+**********2. NAMD run
+[namd run]
+   md.sh        
+
+
+**********3. Druggability analysis
+   mkdir al
+   cd al
+
+[vmd: Extensions-Modeling-DruGUI]
+ *Calculate Grids*
+   load    md.psf
+   load    md.pdb
+   load    md_sim/sim.dcd (from DruGUI-sample)
+   select  output folder al
+   select  output prefix dg
+   click   Calculate Grids
+*  dg.log
+*  al/dg_heavyatoms.pdb   : protein structure
+*  al/dg/dg_all_hotspots.pdb : all hotspots
+*  al/dg/dg_site_1_soln_1.pdb: solution 1 for site 1
+
+Ref) Bakan A, Nevins N, Lakdawala As, Bahar I (2012) J Chem Theory Comput 8: 2435.
+=====================================================END  
+
